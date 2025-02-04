@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="App">
+      <UniqueIdentifier>{463df65c-365e-40c2-affc-b8c2461ef2f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="module">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="module\Dynamic">
+      <UniqueIdentifier>{67ef56dc-ce4c-457e-9ee0-775722019d03}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="src\Dynamic">
+      <UniqueIdentifier>{e0773f58-2656-4efa-b1c2-f01e324842e1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Project.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="Test.cpp">
+      <Filter>App</Filter>
+    </ClCompile>
+    <ClCompile Include="BasicTool.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="ConstPool.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="Attribute.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="ClassReader.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="DynamicScanner.cpp">
+      <Filter>src\Dynamic</Filter>
+    </ClCompile>
+    <ClCompile Include="Code.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="ClassFile.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="TODO.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DynamicScanner.h">
+      <Filter>module\Dynamic</Filter>
+    </ClInclude>
+    <ClInclude Include="Project.h">
+      <Filter>module</Filter>
+    </ClInclude>
+    <ClInclude Include="ConstPool.h">
+      <Filter>module</Filter>
+    </ClInclude>
+    <ClInclude Include="Code.h">
+      <Filter>module</Filter>
+    </ClInclude>
+    <ClInclude Include="ClassReader.h">
+      <Filter>module</Filter>
+    </ClInclude>
+    <ClInclude Include="ClassFile.h">
+      <Filter>module</Filter>
+    </ClInclude>
+    <ClInclude Include="BasicTool.h">
+      <Filter>module</Filter>
+    </ClInclude>
+    <ClInclude Include="Attribute.h">
+      <Filter>module</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
